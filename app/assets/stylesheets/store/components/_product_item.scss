@@ -1,6 +1,6 @@
 [data-hook="product_price"] {
   margin-bottom: 24px;
-  border-bottom: 2px solid lighten($c_blue, 30);
+  border-bottom: 2px solid lighten($c_green, 30);
 
   #product-price {    
     float: left;
@@ -48,16 +48,16 @@
 }
 
 #main-image {
-  border: 2px solid lighten($c_green, 30) !important;
+  // border: 2px solid lighten($c_green, 30) !important;
   overflow: hidden;  
 
-  &, img {
-    @include border-radius(165px);
-  }  
+  // &, img {
+  //   @include border-radius(165px);
+  // }  
 
-  img {
-    padding: 46px 37px 46px 38px;
-  }
+  // img {
+  //   padding: 46px 37px 46px 38px;
+  // }
 }
 
 #product-thumbnails {
